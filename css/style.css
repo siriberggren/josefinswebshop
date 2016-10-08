@@ -154,22 +154,14 @@ p.container.about.text {
 }
 /* ---------------GALLERY-------------------- */
 
+.container.gallery {
+	align-content: center;
+	width: 70%;
+}
 
 .row {
 	margin-bottom: 1em;
 }
-
-.hover10 figure img {
-	-webkit-filter: grayscale(0) blur(0);
-	filter: grayscale(0) blur(0);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-}
-.hover10 figure:hover img {
-	-webkit-filter: grayscale(100%) blur(3px);
-	filter: grayscale(100%) blur(3px);
-}
-
 
 /* ---------------CONTACT-------------------- */
 
