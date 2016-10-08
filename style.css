@@ -84,15 +84,13 @@ li.item {
 /* ---------------START PAGE-------------------- */
 
 
-
-.container.gallery {
+.container.video {
+	width: 70%;
 	align-content: center;
-	width: 70%;	
+	display: block;
+	
 }
 
-.row {
-	margin-bottom: 1em;
-}
 
 
 .footer {
@@ -127,5 +125,15 @@ li.item {
 p.container {
 	text-align: left;
 
+}
+/* ---------------GALLERY-------------------- */
+
+.container.gallery {
+	align-content: center;
+	width: 70%;	
+}
+
+.row {
+	margin-bottom: 1em;
 }
 
