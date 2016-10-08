@@ -106,14 +106,18 @@ li.item {
 
 /* ---------------ABOUT PAGE-------------------- */
 
-.img-circle {
-	display: block;
-	margin-right: 50%;
-	margin-left: 50%;
-	margin-bottom: 2em;
+
+.container.profile {
+	width: 40%;
+	margin-bottom: 3em;
 }
 
-.container {
+.img-circle {
+	display: block;
+	margin: 0 auto;
+}
+
+.container.about.text {
 	width: 40%;
 	align-content: center;
 	font-family: 'Open Sans Condensed', sans-serif;
